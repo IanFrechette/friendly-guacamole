@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="/css/services-styles.css">
+</head>
+<body>
+   
+    <div id="wrapper">
+
+
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/graphic-history.html">Design Examples</a></li>
+                <li><a href="/FAQ.html">FAQ</a></li>
+            </ul>
+        </nav>
+
+
+        <header>
+            <h1>Choose Your Service</h1>
+            <p>Please fill out the form below to place an order with HQ Productions.</p>
+
+
+    <section class="order">
+        <form method="post" name="Order" data-netlify="true">
+
+
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text"name="firstName" id="firstName" placeholder="First Name"required>
+            </div>
+
+
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text"name="lastName" id="lastName" placeholder="Last Name"required>
+            </div>
+
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email"name="email" id="email" placeholder="Email"required>
+            </div>
+
+
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel"name="phone" id="phone" placeholder="Phone Number"required>
+            </div>
+
+            <div>
+                <label for="address">Shipping Address:</label>
+                <input type="text"name="address" id="address" placeholder="Shipping Address">
+
+            <div>
+                <label for="Service Type">Service Type:</label>
+                <select name="serviceType" id="serviceType" required>
+                    <option value="">Select a service type</option>
+                    <option value="Logo">Logo Design</option>
+                    <option value="Website">Website Design</option>
+                    <option value="Video">Video Production</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="Shipping">Shipping Plan:</label>
+                <select name="shipping" id="shipping" required>
+                    <option value="">Select a package</option>
+                    <option value="Basic">Basic</option>
+                    <option value="Standard">Standard</option>
+                    <option value="Premium">Premium</option>
+                </select>
+
+            </div>
+
+            <div>
+                <label for="price">Total Price (Without Tax):</label>
+                <input type="number"name="price" id="price" placeholder="Total Price" required>
+            </div>
+
+            <div>
+                <div>Payment Method</div>
+                <label for="view">Credit</label>
+                <input type="radio" name="view" id="credit" value="yes" required>
+               
+                <label for="view">Debit</label>
+                <input type="radio" name="view" id="debit" value="no" required>
+
+                <label for="view">PayPal</label>
+                <input type="radio" name="view" id="paypal" value="no" required>
+
+                <label for="view">Apple Pay</label>
+                <input type="radio" name="view" id="applepay" value="no" required>
+            </div>
+
+            <div>
+                <label for="date">Order Date:</label>
+                <input type="date"name="date" id="date" required>
+            </div>
+
+            <div>
+                <label for="notes">Specific Requests:</label>
+
+            <div>
+                <textarea name="notes" id="notes" rows="4" cols="50"></textarea>
+            </div>
+
+           
+            <div>
+                <label for="terms">I agree to all the terms listed above.</label>
+                <input type="checkbox" name="terms" id="terms" required>
+            </div>
+
+
+            <div>
+                Create a Password to Return. (Username is your email)
+            </div> 
+            <div>
+                <input type="password"name="password" value="password">
+            </div>
+
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+
+            <div>
+                <button type="reset">Reset</button>
+            </div>
+
+
+            <footer>
+                <p>&copy; 2025 HQ Productions<br>Terryville, CT</p>
+            </footer>
+
+
+
+
+        </form>
+    </section>
+</div>
+
+
+</body>
+</html>
